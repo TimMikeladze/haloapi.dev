@@ -63,10 +63,25 @@ const apolloServer = new ApolloServer({
 
 export default apolloServer;
 ```
+
+## Sponsor development
+
+Your access to the [Halo GraphQL API](https://haloapi.dev/api/graphql) is free but my hosting costs are not.
+
+Support the project by donating on [PayPal](https://www.paypal.com/paypalme/TimMikeladze) or [Ko-Fi](https://ko-fi.com/timmikeladze).
+
  
 ## How it works
 
-`halo-graphql` wraps the [Halo Infinite Autocode API](https://autocode.com/lib/halo/infinite) with GraphQL type definitions and uses Autocode's `lib` package to access the Halo Infinite API.
+First `halo-graphql` wraps the [Halo Infinite Autocode API](https://autocode.com/lib/halo/infinite) with GraphQL type definitions and resolvers which use Autocode's `lib` package to access the Halo Infinite API.
+
+Second a [NextJS](https://nextjs.org/) app is deployed to [Vercel](https://vercel.com/) containing a GraphQL server function. This is an [Apollo server](https://github.com/apollographql/apollo-server) that consumes the `halo-graphql` package using [GraphQL Modules](https://github.com/Urigo/graphql-modules). The server also implements caching and rate limiting using [GraphQL Shield](https://github.com/maticzav/graphql-shield).
+
+**Why I built this:**
+
+The service by provided by Autocode is great for quick scripting purposes when you want to access game data programmatically. However if you are building a fully featured app than a more sophisticated data fetching mechanism becomes crucial. This is where the Halo GraphQL API enters the picture by enabling you to leverage the power of the GraphQL ecosystem while providing access to Halo data in a type-safe and developer friendly manner.
+
+Furthermore, in the future this API can be expanded to have additional datasources, such as Halo 5, MCC or Waypoint all while maintaining a single GraphQL API for all Halo data.
 
 ## Future plans
 
@@ -82,14 +97,7 @@ Replace the in memory apollo server cache implementation to use a persistent cac
 
 **Suggestions**
 
-Got a feature request? Found a bug? [Open an issue](https://github.com/TimMikeladze/haloapi.dev/issues/new) or contact me [directly](https://linesofcode.dev). 
-
-## Sponsor development
-
-Your access to the [Halo GraphQL API](https://haloapi.dev/api/graphql) is free but my hosting costs are not.
-
-Support the project by donating on [PayPal](https://www.paypal.com/paypalme/TimMikeladze) or [Ko-Fi](https://ko-fi.com/timmikeladze). 
-
+Got a feature request? Found a bug? [Open an issue](https://github.com/TimMikeladze/haloapi.dev/issues/new) or contact me [directly](https://linesofcode.dev).
 
 ## Query examples
 

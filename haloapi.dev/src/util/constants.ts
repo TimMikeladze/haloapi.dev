@@ -8,6 +8,10 @@ export const APP_DESCRIPTION = `GraphQL API for Halo Infinite.`;
 
 export const DEFAULT_MAX_AGE = 5 * 60; // 5 minutes
 
+export const RATE_LIMIT_WINDOW = `1m`;
+
+export const RATE_LIMIT_MAX = 10;
+
 export const DEFAULT_QUERY = `{
   multiplayerServiceRecord(
     gamertag: "<gamertag goes here>"

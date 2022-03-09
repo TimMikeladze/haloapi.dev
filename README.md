@@ -91,3 +91,41 @@ Your access to the [Halo GraphQL API](https://haloapi.dev/api/graphql) is free b
 Support the project by donating on [PayPal](https://www.paypal.com/paypalme/TimMikeladze) or [Ko-Fi](https://ko-fi.com/timmikeladze). 
 
 
+## Query examples
+
+```graphql
+query MultiplayerOverview {
+  multiplayerServiceRecord(
+    gamertag: "Tim the BusStop"
+    filter: matchmade_ranked
+  ) {
+    data {
+      matches_played
+      win_rate
+      time_played {
+        human
+      }
+      core {
+        kda
+        kdr
+      }
+    }
+  }
+
+  matches(gamertag: "Tim the BusStop", limit: { offset: 0, count: 2 }) {
+    data {
+      id
+      played_at
+      player {
+        rank
+        outcome
+      }
+      details {
+        map {
+          name
+        }
+      }
+    }
+  }
+}
+```

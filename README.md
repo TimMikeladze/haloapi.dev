@@ -17,7 +17,7 @@ The API is deployed to [https://haloapi.dev/api/graphql](https://haloapi.dev/api
 
 > If you are using the hosted GraphQL API in a production app or for data intensive experiments consider supporting the project by donating on [PayPal](https://www.paypal.com/paypalme/TimMikeladze) or [Ko-Fi](https://ko-fi.com/timmikeladze).
 > 
-> The service is consuming Autocode using a [free plan](https://autocode.com/pricing/) allowing only a **limited number of requests per month**. 
+> The service is using Autocode with a [free plan](https://autocode.com/pricing/) allowing only a **limited number of requests per month**. Your donations would pay for a higher rate plan.
 > 
 > ❤️ Please be considerate with your usage.
 

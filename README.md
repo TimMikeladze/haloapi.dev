@@ -13,7 +13,7 @@ The API is deployed to [https://haloapi.dev/api/graphql](https://haloapi.dev/api
 - Cache control is enabled for all queries. Responses will be cached in memory for 5 minutes. 
 - All queries are rate limited by user-agent and ip address. Excessive querying will result in an error.
 
-**Important note**
+**❗Important note❗**
 
 > If you are using the hosted GraphQL API in a production app or for data intensive experiments consider supporting the project by donating on [PayPal](https://www.paypal.com/paypalme/TimMikeladze) or [Ko-Fi](https://ko-fi.com/timmikeladze).
 > 

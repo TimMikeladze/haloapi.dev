@@ -22,7 +22,7 @@ export const DEFAULT_QUERY = `# Welcome to the Halo GraphQL API.
 # ------------------------------------------------
 #
 # New to GraphQL?
-# Get started: https://graphql.org/learn/
+# Get started: https://www.howtographql.com/
 # Level up: https://www.apollographql.com/docs/
 # ------------------------------------------------
 

@@ -41,7 +41,7 @@ footer {
   text-align: right;
   font-size: 14px;
   font-weight: bold;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 4px var(--color-primary);
 }
 
 .footerContent {
@@ -67,7 +67,7 @@ footer {
 }
 
 .title {
-  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 8px 8px 8px var(--color-primary);
 }
 
 .hero {
@@ -99,7 +99,7 @@ footer {
 .description {
   font-size: 18px;
   color: var(--color-secondary);
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px 4px var(--color-primary);
 }
 
 .buttons > a {
@@ -124,7 +124,7 @@ footer {
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {

@@ -3,6 +3,7 @@ import { NextSeo } from 'next-seo';
 import Script from 'next/script';
 import { Icon } from '@iconify/react';
 import getAppUrl from '@/util/getAppUrl';
+import { APP_DESCRIPTION, APP_NAME } from '@/util/constants';
 
 const gaEnabled =
   typeof window !== `undefined` &&
@@ -42,17 +43,17 @@ export default function Index() {
 
   return (
     <div>
-      <NextSeo title="Halo API" description="" />
+      <NextSeo title={APP_NAME} description={APP_DESCRIPTION} />
       <Head>
-        <title>Halo API</title>
-        <meta name="description" content="" />
+        <title>{APP_NAME}</title>
+        <meta name="description" content={APP_DESCRIPTION} />
       </Head>
       {ga}
       <main>
         <div className="background" />
         <div className="container">
           <div className="hero">
-            <div className="title">Halo API</div>
+            <div className="title">{APP_NAME}</div>
             <div className="buttons">
               <a
                 className="button"

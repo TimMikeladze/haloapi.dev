@@ -94,7 +94,7 @@ footer {
 .description {
   font-size: 18px;
   color: var(--color-secondary);
-  max-width: 500px
+  max-width: 600px
 }
 
 .buttons > a {

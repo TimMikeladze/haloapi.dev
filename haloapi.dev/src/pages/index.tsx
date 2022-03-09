@@ -68,7 +68,7 @@ export default function Index() {
             </div>
             <div className="divider" />
             <div className="description">
-              Query data from Halo Infinite with GraphQL.
+              GraphQL API and NPM module for querying Halo data.
             </div>
           </div>
         </div>

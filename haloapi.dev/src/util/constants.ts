@@ -22,14 +22,14 @@ export const DEFAULT_QUERY = `# Welcome to the Halo GraphQL API.
 # ------------------------------------------------
 #
 # New to GraphQL?
-# Get started: https://www.howtographql.com/
-# Level up: https://www.apollographql.com/docs/
+# Get started: https://graphql.org/learn/
+# Level up: https://www.howtographql.com/
 # ------------------------------------------------
 
 query MultiplayerOverview {
   multiplayerServiceRecord(
     gamertag: "Tim the BusStop"
-    filter: matchmade_ranked
+    filter: matchmade_pvp
   ) {
     data {
       matches_played

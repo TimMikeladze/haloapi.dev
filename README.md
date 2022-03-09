@@ -105,7 +105,7 @@ Got a feature request? Found a bug? [Open an issue](https://github.com/TimMikela
 query MultiplayerOverview {
   multiplayerServiceRecord(
     gamertag: "Tim the BusStop"
-    filter: matchmade_ranked
+    filter: matchmade_pvp
   ) {
     data {
       matches_played

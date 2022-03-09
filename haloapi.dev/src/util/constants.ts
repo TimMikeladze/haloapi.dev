@@ -14,7 +14,7 @@ export const RATE_LIMIT_MAX = 10;
 
 export const DEFAULT_QUERY = `{
   multiplayerServiceRecord(
-    gamertag: "<gamertag goes here>"
+    gamertag: "Tim the BusStop"
     filter: matchmade_ranked
   ) {
     data {

@@ -56,7 +56,7 @@ footer {
 }
 
 .container {
-  margin: 0 auto;
+  margin: -128px auto;
   max-width: 600px;
   display: flex;
   align-items: center;

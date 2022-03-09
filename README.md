@@ -2,7 +2,9 @@
 
 [GraphQL playground](https://haloapi.dev/api/graphql)
 
-The Halo GraphQL API provides a GraphQL endpoint for developers to query Halo data without having to write any backend code.
+The Halo GraphQL API provides an endpoint for developers to query Halo data without writing any backend code. 
+
+Building your own GraphQL server? Integrate the Halo API into your backend by installing the `halo-graphql` package.
 
 ## Using the hosted GraphQL API
 

@@ -1,6 +1,6 @@
 {
   "name": "halo-graphql",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "GraphQL module for the Halo Infinite API.",
   "author": "Tim Mikeladze <tim.mikeladze@gmail.com>",
   "keywords": [

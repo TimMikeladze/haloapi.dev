@@ -77,7 +77,7 @@ export default function Index() {
       <footer className="footer">
         <div className="footerContent">
           <div>❤️</div>
-          <a href="https://github.com/TimMikeladze/haloapi.dev">
+          <a href="https://github.com/TimMikeladze/haloapi.dev#sponsor-development">
             Sponsor development
           </a>
           <div className="verticalDivider" />

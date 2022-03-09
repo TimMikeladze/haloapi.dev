@@ -1,0 +1,157 @@
+:root {
+  --color-primary: #090909;
+  --color-secondary: #dbdada;
+  --color-hover: #6c8597;
+}
+
+* {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  background-image: url("/Auntie_Dot.png");
+  background-color: var(--color-primary);
+  height: 100vh;
+  width: 100vw;
+  filter: blur(3px) brightness(80%);
+  transform: scale(2);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 32px;
+  color: var(--color-secondary);
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  margin-bottom: 16px;
+}
+
+.footerContent > div {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 8px;
+}
+
+.hero {
+  font-size: 75px;
+  color: var(--color-secondary);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divider {
+  height: 4px;
+  border-top-style: dashed;
+  border-top-color: var(--color-secondary);
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 75%;
+}
+
+.verticalDivider {
+  height: 16px;
+  border-width: 1px;
+  border-left-style: dashed;
+  border-left-color: var(--color-secondary);
+}
+
+.description {
+  font-size: 18px;
+  color: var(--color-secondary);
+  max-width: 500px
+}
+
+.buttons > a {
+  margin: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: var(--color-secondary);
+  border: none;
+  color: var(--color-primary);
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover {
+  background-color: var(--color-hover);
+  transition: 0.5s;
+}
+
+.icon {
+  color: var(--color-primary);
+  margin-right: 12px;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .background {
+    transform: scale(1.3);
+    filter: blur(3px);
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .hero {
+    font-size: 60px;
+  }
+  .button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

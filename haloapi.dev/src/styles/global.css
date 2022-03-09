@@ -21,11 +21,11 @@ body {
 .background {
   position: fixed;
   z-index: -1;
-  background-image: url("/Auntie_Dot.png");
+  background-image: url("/background.png");
   background-color: var(--color-primary);
   height: 100vh;
   width: 100vw;
-  filter: blur(3px) brightness(80%);
+  filter: blur(2px) brightness(80%);
   transform: scale(2);
   background-size: auto;
   background-position: center;

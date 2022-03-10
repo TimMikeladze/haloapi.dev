@@ -64,7 +64,7 @@ const apolloServer = new ApolloServer({
 export default apolloServer;
 ```
 
-## Sponsor development
+## Sponsor project
 
 Your access to the [Halo GraphQL API](https://haloapi.dev/api/graphql) is free but my hosting costs are not.
 

@@ -104,7 +104,7 @@ Got a feature request? Found a bug? [Open an issue](https://github.com/TimMikela
 ```graphql
 query MultiplayerOverview {
   multiplayerServiceRecord(
-    gamertag: "Tim the BusStop"
+    gamertag: "your gamertag goes here"
     filter: matchmade_pvp
   ) {
     data {
@@ -120,7 +120,7 @@ query MultiplayerOverview {
     }
   }
 
-  matches(gamertag: "Tim the BusStop", limit: { offset: 0, count: 2 }) {
+  matches(gamertag: "your gamertag goes here", limit: { offset: 0, count: 2 }) {
     data {
       id
       played_at

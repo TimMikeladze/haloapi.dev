@@ -1563,10 +1563,10 @@ graphql@16.5.0:
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
   integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
 
-halo-graphql@0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/halo-graphql/-/halo-graphql-0.0.7.tgz#538e90fa8473df8c1caecea99bdc27cc47608177"
-  integrity sha512-RR/ot0i4LVIzAcFFheblA0ALJ9UrC0dCHhBMfeMR0ysWoGV4eXngFFEWXSJSKZh48bN+AUnzE6UScx9fpbNxmg==
+halo-graphql@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/halo-graphql/-/halo-graphql-0.0.8.tgz#bc7d351176e1aaede4663c1b289d143c76c1fa92"
+  integrity sha512-vbArK1zBRtOcmatZEu5Zguvpjj7jmuPHpiuaBs4Rpy5OL03FhArPi67T1PuNzeh4Z364V2S8SPONhzfKCEf5Lg==
   dependencies:
     graphql-modules "2.0.0"
     lib "4.3.3"
